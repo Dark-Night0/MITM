@@ -81,9 +81,10 @@ https://github.com/Crypt00o/CSPF4
 	scan <ip>
 	scan <cidr>
 	
-	Example:
-	      ** scan 192.168.1.1 **
-              ** scan 192.168.1.1/24 **
+Example:
+	
+	      scan 192.168.1.1
+              scan 192.168.1.1/24
 
 ------------------------------------------------------------
 
@@ -259,7 +260,7 @@ www.google.co.in PTR 192.168.1.12
 	
 # Option :
 
---count|-c count : count   and number of packet to capture
+--count |-c count : count   and number of packet to capture
 -r file : read from pcap file 
 -w file : write to pcap file
 -v[vvvv] : versposing  and decodeing and increase packet info 
@@ -352,7 +353,7 @@ function crypto_bitm_mitm(){ printf 'if(ip.proto== TCP && tcp.dst == 80) {\n\tif
 
 }
 
-** or ** 
+ or 
 
 # 2 -  hook head 
 
